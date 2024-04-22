@@ -6,7 +6,7 @@ const catchAsyncErrors = require("../middleware/catchAsyncErrors");
 const jwt = require("jsonwebtoken");
 const sendToken = require("../utils/jwtToken");
 
-// create user
+// create userdddd
 router.post("/create-user", async (req, res, next) => {
     try {
         // Destructure all fields from req.body
